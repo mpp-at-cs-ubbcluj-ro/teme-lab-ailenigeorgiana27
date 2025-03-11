@@ -2,9 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="domain" target="17" />
+      <module name="domain.main" target="17" />
+      <module name="domain.test" target="17" />
+      <module name="java" target="17" />
+      <module name="java.domain" target="17" />
+      <module name="java.domain.main" target="17" />
+      <module name="java.domain.test" target="17" />
+      <module name="java.main" target="17" />
+      <module name="java.repo" target="17" />
+      <module name="java.repo.main" target="17" />
+      <module name="java.repo.test" target="17" />
+      <module name="java.test" target="17" />
+      <module name="javaL2" target="17" />
+      <module name="javaL2.Domain.main" target="17" />
+      <module name="javaL2.Domain.test" target="17" />
+      <module name="javaL2.main" target="17" />
+      <module name="javaL2.test" target="17" />
       <module name="StartGradle" target="17" />
       <module name="StartGradle.main" target="17" />
       <module name="StartGradle.test" target="17" />
+      <module name="TemaLab3" target="17" />
+      <module name="TemaLab3.main" target="17" />
+      <module name="TemaLab3.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

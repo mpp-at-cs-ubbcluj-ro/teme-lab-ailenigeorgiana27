@@ -5,7 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/StartGradle.iml" filepath="$PROJECT_DIR$/StartGradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartGradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/StartGradle.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartGradle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/StartGradle.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/first/first.iml" filepath="$PROJECT_DIR$/first/first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemaLab3.iml" filepath="$PROJECT_DIR$/TemaLab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemaLab3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TemaLab3.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemaLab3.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TemaLab3.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaL2.iml" filepath="$PROJECT_DIR$/javaL2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Domain/javaL2.Domain.iml" filepath="$PROJECT_DIR$/.idea/modules/Domain/javaL2.Domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaL2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/javaL2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaL2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/javaL2.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/module.iml" filepath="$PROJECT_DIR$/module/module.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/teme-lab-ailenigeorgiana27.iml" filepath="$PROJECT_DIR$/.idea/teme-lab-ailenigeorgiana27.iml" />
     </modules>
