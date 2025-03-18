@@ -22,12 +22,33 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/domain" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/domain" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/javaL2" />
         <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/javaL2" />
             <option value="$PROJECT_DIR$/javaL2/Domain" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/javaLab3" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/javaLab3" />
+            <option value="$PROJECT_DIR$/javaLab3/application" />
+            <option value="$PROJECT_DIR$/javaLab3/domain" />
+            <option value="$PROJECT_DIR$/javaLab3/repository" />
           </set>
         </option>
       </GradleProjectSettings>

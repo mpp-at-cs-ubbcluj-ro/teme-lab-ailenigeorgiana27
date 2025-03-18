@@ -8,10 +8,22 @@
       <module fileurl="file://$PROJECT_DIR$/TemaLab3.iml" filepath="$PROJECT_DIR$/TemaLab3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemaLab3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TemaLab3.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemaLab3.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TemaLab3.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaL2.iml" filepath="$PROJECT_DIR$/javaL2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Domain/javaL2.Domain.iml" filepath="$PROJECT_DIR$/.idea/modules/Domain/javaL2.Domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaL2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/javaL2.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaL2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/javaL2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaLab3.iml" filepath="$PROJECT_DIR$/javaLab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/javaLab3.application.iml" filepath="$PROJECT_DIR$/.idea/modules/application/javaLab3.application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/javaLab3.application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/application/javaLab3.application.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/javaLab3.application.test.iml" filepath="$PROJECT_DIR$/.idea/modules/application/javaLab3.application.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/javaLab3.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/javaLab3.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/javaLab3.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/javaLab3.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/javaLab3.domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/javaLab3.domain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/javaLab3.repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/javaLab3.repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/javaLab3.repository.main.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/javaLab3.repository.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/javaLab3.repository.test.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/javaLab3.repository.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/module.iml" filepath="$PROJECT_DIR$/module/module.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/teme-lab-ailenigeorgiana27.iml" filepath="$PROJECT_DIR$/.idea/teme-lab-ailenigeorgiana27.iml" />
     </modules>
