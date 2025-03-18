@@ -1,0 +1,513 @@
+17 Mar 2025 15:53:16,475 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 15:53:16,480 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 15:53:16,480 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 15:53:16,484 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 15:53:16,484 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 15:53:16,484 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 15:53:16,484 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 15:53:16,484 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 15:53:16,484 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 15:53:16,484 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 15:53:16,892 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@20435c40)
+17 Mar 2025 15:53:16,917 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 15:53:16,917 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 15:53:16,917 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 15:53:16,917 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 15:53:16,917 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 15:53:16,917 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 15:53:16,921 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 15:53:16,921 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 15:53:16,921 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 15:53:17,081 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63611043)
+17 Mar 2025 15:53:17,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 15:53:17,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 15:53:17,081 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@20ca951f 
+17 Mar 2025 15:57:51,815 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 15:57:51,815 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 15:57:51,826 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 15:57:51,826 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 15:57:51,826 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 15:57:51,826 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 15:57:51,826 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 15:57:51,826 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 15:57:51,826 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 15:57:51,826 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 15:57:52,215 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7fcf2fc1)
+17 Mar 2025 15:57:52,229 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 15:57:52,229 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 15:57:52,229 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 15:57:52,229 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 15:57:52,229 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 15:57:52,229 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 15:57:52,229 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 15:57:52,229 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 15:57:52,229 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 15:57:52,301 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@37e4d7bb)
+17 Mar 2025 15:57:52,301 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 15:57:52,301 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 15:57:52,301 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@6f7923a5 
+17 Mar 2025 16:01:54,643 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:01:54,659 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:01:54,659 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:01:54,659 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:01:54,668 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:01:54,668 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:01:54,668 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:01:54,668 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:01:54,668 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:01:54,668 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:01:55,126 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@44c73c26)
+17 Mar 2025 16:01:55,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:01:55,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:01:55,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:01:55,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:01:55,155 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:01:55,155 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:01:55,159 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:01:55,159 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:01:55,159 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:01:55,250 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@43b9fd5)
+17 Mar 2025 16:01:55,252 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:01:55,252 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:01:55,252 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@79dc5318 
+17 Mar 2025 16:02:31,421 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:02:31,427 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:02:31,428 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:02:31,430 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:02:31,431 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:02:31,431 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:02:31,431 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:02:31,431 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:02:31,432 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:02:31,432 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:02:31,843 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6d07a63d)
+17 Mar 2025 16:02:31,864 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:02:31,865 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:02:31,865 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:02:31,865 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:02:31,865 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:02:31,866 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:02:31,866 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:02:31,866 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:02:31,866 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:02:31,931 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@73302995)
+17 Mar 2025 16:02:31,934 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:02:31,934 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:02:31,934 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@1838ccb8 
+17 Mar 2025 16:03:51,009 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:03:51,014 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:03:51,015 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:03:51,018 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:03:51,019 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:03:51,019 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:03:51,019 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:03:51,020 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:03:51,020 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:03:51,020 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:03:51,420 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@571c5681)
+17 Mar 2025 16:03:51,439 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:03:51,440 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:03:51,440 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:03:51,440 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:03:51,440 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:03:51,441 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:03:51,441 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:03:51,441 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:03:51,441 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:03:51,511 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1838ccb8)
+17 Mar 2025 16:03:51,515 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:03:51,515 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:03:51,515 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@6c2ed0cd 
+17 Mar 2025 16:05:14,127 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:05:14,134 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:05:14,136 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:05:14,144 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:05:14,144 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:05:14,145 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:05:14,145 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:05:14,146 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:05:14,146 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:05:14,147 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:05:14,773 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@768fc0f2)
+17 Mar 2025 16:05:14,824 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:05:14,825 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:05:14,825 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:05:14,825 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:05:14,826 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:05:14,826 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:05:14,827 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:05:14,827 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:05:14,828 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:05:14,904 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@432038ec)
+17 Mar 2025 16:05:14,908 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:05:14,908 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:05:14,909 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@7daa0fbd 
+17 Mar 2025 16:05:47,484 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:05:47,488 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:05:47,489 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:05:47,492 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:05:47,493 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:05:47,493 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:05:47,493 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:05:47,494 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:05:47,494 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:05:47,494 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:05:47,895 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5965be2d)
+17 Mar 2025 16:05:47,917 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:05:47,917 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:05:47,917 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:05:47,918 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:05:47,918 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:05:47,918 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:05:47,918 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:05:47,919 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:05:47,919 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:05:47,982 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@20c0a64d)
+17 Mar 2025 16:05:47,985 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:05:47,985 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:05:47,986 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@455b6df1 
+17 Mar 2025 16:06:49,125 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:06:49,130 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:06:49,131 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:06:49,133 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:06:49,133 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:06:49,134 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:06:49,134 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:06:49,134 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:06:49,134 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:06:49,135 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:06:49,576 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@d278d2b)
+17 Mar 2025 16:06:49,597 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:06:49,598 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:06:49,598 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:06:49,598 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:06:49,599 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:06:49,599 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:06:49,599 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:06:49,599 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:06:49,600 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:06:49,775 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@51133c06)
+17 Mar 2025 16:06:49,778 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:06:49,778 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:06:49,779 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@4b213651 
+17 Mar 2025 16:08:26,970 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:08:26,976 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:08:26,977 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:08:26,979 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:08:26,980 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:08:26,980 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:08:26,980 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:08:26,980 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:08:26,981 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:08:26,981 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:08:27,368 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@44c73c26)
+17 Mar 2025 16:08:27,388 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:08:27,389 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:08:27,389 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:08:27,390 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:08:27,390 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:08:27,390 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:08:27,390 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:08:27,391 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:08:27,391 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:08:27,443 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@43b9fd5)
+17 Mar 2025 16:08:27,446 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:08:27,446 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:08:27,447 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@79dc5318 
+17 Mar 2025 16:09:04,218 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:09:04,225 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:09:04,226 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:09:04,228 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:09:04,229 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:09:04,229 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:09:04,229 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:09:04,230 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:09:04,230 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:09:04,230 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:09:04,671 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@44c73c26)
+17 Mar 2025 16:09:04,698 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:09:04,698 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:09:04,698 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:09:04,699 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:09:04,699 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:09:04,699 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:09:04,700 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:09:04,700 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:09:04,701 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:09:04,783 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@43b9fd5)
+17 Mar 2025 16:09:04,785 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:09:04,785 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:09:04,786 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@79dc5318 
+17 Mar 2025 16:12:00,687 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:12:00,692 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:12:00,693 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:12:00,695 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:12:00,695 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:12:00,696 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:12:00,696 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:12:00,696 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:12:00,696 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:12:00,697 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:12:01,081 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@d278d2b)
+17 Mar 2025 16:12:01,101 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:12:01,101 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:12:01,101 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:12:01,102 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:12:01,102 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:12:01,102 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:12:01,102 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:12:01,103 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:12:01,103 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:12:01,251 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@51133c06)
+17 Mar 2025 16:12:01,254 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:12:01,254 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:12:01,254 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@4b213651 
+17 Mar 2025 16:22:15,136 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:22:15,142 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:22:15,143 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:22:15,148 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:15,148 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:22:15,149 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:15,149 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:22:15,150 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:22:15,150 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:22:15,150 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:22:15,578 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1205bd62)
+17 Mar 2025 16:22:15,601 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:15,602 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:15,602 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:15,602 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:22:15,603 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:15,603 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:22:15,603 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:22:15,603 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:22:15,604 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:22:15,667 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3c01cfa1)
+17 Mar 2025 16:22:15,669 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:22:15,670 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:15,670 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@45d2ade3 
+17 Mar 2025 16:22:58,712 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:22:58,717 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:22:58,718 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 16:22:58,721 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:58,721 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:22:58,721 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:58,722 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:22:58,722 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:22:58,723 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:22:58,723 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:22:59,131 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@57576994)
+17 Mar 2025 16:22:59,161 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:59,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:59,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:59,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:22:59,163 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,163 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:22:59,164 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:22:59,164 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:22:59,164 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:22:59,226 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4816278d)
+17 Mar 2025 16:22:59,230 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:59,230 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:59,230 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@40317ba2 
+17 Mar 2025 16:22:59,231 TRACE ro.mpp2024.repo.DatabaseRepoUtils 52 executeNonQuery - Enter executing query
+17 Mar 2025 16:22:59,231 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,231 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:22:59,232 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:22:59,232 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:22:59,232 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:22:59,302 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@727eb8cb)
+17 Mar 2025 16:22:59,311 TRACE ro.mpp2024.repo.DatabaseRepoUtils 59 executeNonQuery - Eexcuted query on 1 instances
+17 Mar 2025 16:22:59,312 TRACE ro.mpp2024.repo.DatabaseRepoUtils 65 executeNonQuery - Exit
+17 Mar 2025 16:22:59,312 INFO  ro.mpp2024.repo.InscriereDbRepo 52 add - Inserted successfully
+17 Mar 2025 16:22:59,312 TRACE ro.mpp2024.repo.InscriereDbRepo 53 add - Exit
+17 Mar 2025 16:22:59,313 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:59,313 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "PersoanaOficiu" 
+17 Mar 2025 16:22:59,313 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,313 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 16:22:59,314 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 16:22:59,314 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 16:22:59,314 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 16:22:59,473 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5b7a8434)
+17 Mar 2025 16:22:59,475 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 16:22:59,475 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:59,476 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:59,477 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" 
+17 Mar 2025 16:22:59,477 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,477 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@57576994)
+17 Mar 2025 16:22:59,478 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:59,478 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:59,479 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:59,479 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" 
+17 Mar 2025 16:22:59,479 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,480 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4816278d)
+17 Mar 2025 16:22:59,481 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:59,481 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:59,481 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:59,481 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Inscriere"
+17 Mar 2025 16:22:59,481 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,481 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@727eb8cb)
+17 Mar 2025 16:22:59,483 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:59,483 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 16:22:59,483 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,484 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@57576994)
+17 Mar 2025 16:22:59,485 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:59,485 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:59,485 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 16:22:59,485 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 16:22:59,485 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 16:22:59,486 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@4816278d)
+17 Mar 2025 16:22:59,487 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:59,487 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 16:22:59,487 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 16:22:59,487 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:42,963 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 17:55:42,969 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 17:55:42,970 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+17 Mar 2025 17:55:42,974 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:42,974 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 17:55:42,975 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:42,975 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 17:55:42,976 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 17:55:42,976 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 17:55:42,977 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 17:55:43,396 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6fa34d52)
+17 Mar 2025 17:55:43,429 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 17:55:43,429 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:43,430 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:43,430 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 17:55:43,430 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,430 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 17:55:43,431 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 17:55:43,431 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 17:55:43,431 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 17:55:43,506 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@68f4865)
+17 Mar 2025 17:55:43,509 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 17:55:43,509 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:43,510 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@4eaf3684 
+17 Mar 2025 17:55:43,510 TRACE ro.mpp2024.repo.DatabaseRepoUtils 52 executeNonQuery - Enter executing query
+17 Mar 2025 17:55:43,511 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,511 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 17:55:43,511 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 17:55:43,511 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 17:55:43,511 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 17:55:43,579 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@45d2ade3)
+17 Mar 2025 17:55:43,588 TRACE ro.mpp2024.repo.DatabaseRepoUtils 59 executeNonQuery - Eexcuted query on 1 instances
+17 Mar 2025 17:55:43,589 TRACE ro.mpp2024.repo.DatabaseRepoUtils 65 executeNonQuery - Exit
+17 Mar 2025 17:55:43,589 INFO  ro.mpp2024.repo.InscriereDbRepo 52 add - Inserted successfully
+17 Mar 2025 17:55:43,590 TRACE ro.mpp2024.repo.InscriereDbRepo 53 add - Exit
+17 Mar 2025 17:55:43,590 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:43,590 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "PersoanaOficiu" 
+17 Mar 2025 17:55:43,590 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,590 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+17 Mar 2025 17:55:43,590 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+17 Mar 2025 17:55:43,591 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+17 Mar 2025 17:55:43,591 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+17 Mar 2025 17:55:43,650 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@b978d10)
+17 Mar 2025 17:55:43,651 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+17 Mar 2025 17:55:43,652 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:43,653 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:43,653 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" 
+17 Mar 2025 17:55:43,654 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,654 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6fa34d52)
+17 Mar 2025 17:55:43,655 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 17:55:43,655 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:43,655 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:43,656 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" 
+17 Mar 2025 17:55:43,656 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,656 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@68f4865)
+17 Mar 2025 17:55:43,657 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 17:55:43,657 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:43,658 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:43,658 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Inscriere"
+17 Mar 2025 17:55:43,658 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,658 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@45d2ade3)
+17 Mar 2025 17:55:43,659 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:43,660 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+17 Mar 2025 17:55:43,660 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,661 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6fa34d52)
+17 Mar 2025 17:55:43,662 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 17:55:43,662 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:43,662 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+17 Mar 2025 17:55:43,662 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+17 Mar 2025 17:55:43,662 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+17 Mar 2025 17:55:43,663 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@68f4865)
+17 Mar 2025 17:55:43,663 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 17:55:43,664 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+17 Mar 2025 17:55:43,664 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+17 Mar 2025 17:55:43,664 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:55,374 INFO  ro.mpp2024.repo.PersoanaOficiuDbRepo 17 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.user=postgres, //SQLITE=, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+18 Mar 2025 10:28:55,379 INFO  ro.mpp2024.repo.ParticipantDbRepo 19 <init> - Initializing ParticipantDbRepo with properties {jdbc.user=postgres, //SQLITE=, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+18 Mar 2025 10:28:55,381 INFO  ro.mpp2024.repo.ProbaDbRepo 19 <init> - Initializing ProbaDbRepo with properties {jdbc.user=postgres, //SQLITE=, jdbc.url=jdbc:postgresql://localhost:5432/postgres, jdbc.pass=27georgi} 
+18 Mar 2025 10:28:55,384 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:55,384 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+18 Mar 2025 10:28:55,385 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:55,385 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+18 Mar 2025 10:28:55,386 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+18 Mar 2025 10:28:55,386 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+18 Mar 2025 10:28:55,387 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+18 Mar 2025 10:28:55,872 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@27adc16e)
+18 Mar 2025 10:28:55,920 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+18 Mar 2025 10:28:55,920 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:55,921 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:55,921 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+18 Mar 2025 10:28:55,921 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:55,922 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+18 Mar 2025 10:28:55,922 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+18 Mar 2025 10:28:55,923 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+18 Mar 2025 10:28:55,923 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+18 Mar 2025 10:28:56,008 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1672fe87)
+18 Mar 2025 10:28:56,014 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+18 Mar 2025 10:28:56,014 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:56,015 TRACE ro.mpp2024.repo.InscriereDbRepo 47 add - Inserting ro.mpp2024.domain.Inscriere@1b45c0e 
+18 Mar 2025 10:28:56,015 TRACE ro.mpp2024.repo.DatabaseRepoUtils 52 executeNonQuery - Enter executing query
+18 Mar 2025 10:28:56,016 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:56,016 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+18 Mar 2025 10:28:56,016 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+18 Mar 2025 10:28:56,017 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+18 Mar 2025 10:28:56,017 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+18 Mar 2025 10:28:56,107 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@73a8da0f)
+18 Mar 2025 10:28:56,121 TRACE ro.mpp2024.repo.DatabaseRepoUtils 59 executeNonQuery - Eexcuted query on 1 instances
+18 Mar 2025 10:28:56,122 TRACE ro.mpp2024.repo.DatabaseRepoUtils 65 executeNonQuery - Exit
+18 Mar 2025 10:28:56,122 INFO  ro.mpp2024.repo.InscriereDbRepo 52 add - Inserted successfully
+18 Mar 2025 10:28:56,123 TRACE ro.mpp2024.repo.InscriereDbRepo 53 add - Exit
+18 Mar 2025 10:28:56,123 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:56,124 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "PersoanaOficiu" 
+18 Mar 2025 10:28:56,124 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:56,124 TRACE ro.mpp2024.repo.JdbcUtils 21 getNewConnection - Enter
+18 Mar 2025 10:28:56,125 INFO  ro.mpp2024.repo.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/postgres
+18 Mar 2025 10:28:56,125 INFO  ro.mpp2024.repo.JdbcUtils 27 getNewConnection - user: postgres
+18 Mar 2025 10:28:56,126 INFO  ro.mpp2024.repo.JdbcUtils 28 getNewConnection - pass: 27georgi
+18 Mar 2025 10:28:56,205 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6bf08014)
+18 Mar 2025 10:28:56,207 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 0 items
+18 Mar 2025 10:28:56,208 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:56,209 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:56,209 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" 
+18 Mar 2025 10:28:56,210 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:56,210 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@27adc16e)
+18 Mar 2025 10:28:56,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+18 Mar 2025 10:28:56,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:56,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:56,212 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" 
+18 Mar 2025 10:28:56,212 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:56,212 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1672fe87)
+18 Mar 2025 10:28:56,214 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+18 Mar 2025 10:28:56,214 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:56,215 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:56,215 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Inscriere"
+18 Mar 2025 10:28:56,216 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:56,216 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@73a8da0f)
+18 Mar 2025 10:28:56,218 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:56,219 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+18 Mar 2025 10:28:56,219 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:56,220 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@27adc16e)
+18 Mar 2025 10:28:56,221 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+18 Mar 2025 10:28:56,222 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:56,222 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+18 Mar 2025 10:28:56,222 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+18 Mar 2025 10:28:56,223 TRACE ro.mpp2024.repo.JdbcUtils 44 getConnection - Enter
+18 Mar 2025 10:28:56,223 TRACE ro.mpp2024.repo.JdbcUtils 53 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1672fe87)
+18 Mar 2025 10:28:56,225 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+18 Mar 2025 10:28:56,225 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+18 Mar 2025 10:28:56,225 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+18 Mar 2025 10:28:56,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
