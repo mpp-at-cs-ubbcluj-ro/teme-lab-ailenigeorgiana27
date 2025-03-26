@@ -35,6 +35,9 @@
       <module name="repo" target="17" />
       <module name="repo.main" target="17" />
       <module name="repo.test" target="17" />
+      <module name="TemaLab4" target="21" />
+      <module name="TemaLab4.main" target="21" />
+      <module name="TemaLab4.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

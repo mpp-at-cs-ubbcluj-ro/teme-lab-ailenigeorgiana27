@@ -9861,3 +9861,798 @@
 25 Mar 2025 10:00:26,813 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
 25 Mar 2025 10:00:26,814 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 5 items
 25 Mar 2025 10:00:26,815 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:17,759 INFO  ro.mpp2024.repo.database.PersoanaOficiuDbRepo 22 <init> - Initializing PersoanaOficiuDbRepo with properties: {jdbc.url=jdbc:sqlite:C:/Users/Personal PC/Videos/UBB Info/an2/an2 sem1/metode avansate de programare/teme-lab-ailenigeorgiana27/inot.db} 
+25 Mar 2025 11:49:17,767 INFO  ro.mpp2024.repo.database.ProbaDbRepo 21 <init> - Initializing ProbaDbRepo with properties {jdbc.url=jdbc:sqlite:C:/Users/Personal PC/Videos/UBB Info/an2/an2 sem1/metode avansate de programare/teme-lab-ailenigeorgiana27/inot.db} 
+25 Mar 2025 11:49:17,769 INFO  ro.mpp2024.repo.database.ParticipantDbRepo 22 <init> - Initializing ParticipantDbRepo with properties {jdbc.url=jdbc:sqlite:C:/Users/Personal PC/Videos/UBB Info/an2/an2 sem1/metode avansate de programare/teme-lab-ailenigeorgiana27/inot.db} 
+25 Mar 2025 11:49:25,178 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:25,178 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "PersoanaOficiu" 
+25 Mar 2025 11:49:25,178 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:25,179 TRACE ro.mpp2024.repo.utils.JdbcUtils 22 getNewConnection - Enter
+25 Mar 2025 11:49:25,179 INFO  ro.mpp2024.repo.utils.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Personal PC/Videos/UBB Info/an2/an2 sem1/metode avansate de programare/teme-lab-ailenigeorgiana27/inot.db
+25 Mar 2025 11:49:25,179 INFO  ro.mpp2024.repo.utils.JdbcUtils 28 getNewConnection - user: null
+25 Mar 2025 11:49:25,179 INFO  ro.mpp2024.repo.utils.JdbcUtils 29 getNewConnection - pass: null
+25 Mar 2025 11:49:25,484 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33371430)
+25 Mar 2025 11:49:25,492 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:25,492 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:25,814 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:25,815 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" 
+25 Mar 2025 11:49:25,815 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:25,815 TRACE ro.mpp2024.repo.utils.JdbcUtils 22 getNewConnection - Enter
+25 Mar 2025 11:49:25,816 INFO  ro.mpp2024.repo.utils.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Personal PC/Videos/UBB Info/an2/an2 sem1/metode avansate de programare/teme-lab-ailenigeorgiana27/inot.db
+25 Mar 2025 11:49:25,817 INFO  ro.mpp2024.repo.utils.JdbcUtils 28 getNewConnection - user: null
+25 Mar 2025 11:49:25,817 INFO  ro.mpp2024.repo.utils.JdbcUtils 29 getNewConnection - pass: null
+25 Mar 2025 11:49:25,818 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:25,820 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 5 items
+25 Mar 2025 11:49:25,820 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,079 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,079 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" 
+25 Mar 2025 11:49:31,079 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,079 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,080 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 5 items
+25 Mar 2025 11:49:31,080 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "proba" = ?
+25 Mar 2025 11:49:31,081 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,081 TRACE ro.mpp2024.repo.utils.JdbcUtils 22 getNewConnection - Enter
+25 Mar 2025 11:49:31,081 INFO  ro.mpp2024.repo.utils.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Personal PC/Videos/UBB Info/an2/an2 sem1/metode avansate de programare/teme-lab-ailenigeorgiana27/inot.db
+25 Mar 2025 11:49:31,082 INFO  ro.mpp2024.repo.utils.JdbcUtils 28 getNewConnection - user: null
+25 Mar 2025 11:49:31,082 INFO  ro.mpp2024.repo.utils.JdbcUtils 29 getNewConnection - pass: null
+25 Mar 2025 11:49:31,083 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,083 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,083 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,083 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,084 TRACE ro.mpp2024.repo.utils.JdbcUtils 22 getNewConnection - Enter
+25 Mar 2025 11:49:31,084 INFO  ro.mpp2024.repo.utils.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/Personal PC/Videos/UBB Info/an2/an2 sem1/metode avansate de programare/teme-lab-ailenigeorgiana27/inot.db
+25 Mar 2025 11:49:31,084 INFO  ro.mpp2024.repo.utils.JdbcUtils 28 getNewConnection - user: null
+25 Mar 2025 11:49:31,084 INFO  ro.mpp2024.repo.utils.JdbcUtils 29 getNewConnection - pass: null
+25 Mar 2025 11:49:31,085 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,086 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,086 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,086 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,086 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,086 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,087 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,087 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,087 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,087 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,088 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,088 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,095 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,095 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,096 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,096 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,096 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,096 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,096 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,097 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,097 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,097 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,097 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,097 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,097 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,098 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,098 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,098 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,098 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,098 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,098 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,099 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,099 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,099 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 3 items
+25 Mar 2025 11:49:31,099 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,110 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,110 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,110 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,111 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,111 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,111 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,111 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,111 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,112 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,112 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,112 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,112 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,112 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,112 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,112 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,113 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,114 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,114 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,114 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,114 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,114 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,114 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,114 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,115 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,115 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,115 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,115 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,115 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,115 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,117 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,117 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,117 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,117 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,118 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 3 items
+25 Mar 2025 11:49:31,118 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,125 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,125 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,125 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,126 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,126 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,126 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,126 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,126 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,128 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,128 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,128 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,128 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,128 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,128 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,128 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,129 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,129 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,129 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,130 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,130 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,130 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,130 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,130 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,131 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,131 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,131 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,131 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,131 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,132 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,132 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,132 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,132 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,133 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,133 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,133 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,133 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,134 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,134 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,134 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,134 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,135 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,135 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,135 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,135 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,135 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,135 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,136 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,136 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,137 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,137 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,137 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,137 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,137 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,137 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,138 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,138 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,138 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,138 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,138 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,139 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,139 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,139 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,139 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,139 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,140 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,140 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,140 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,140 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,140 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,141 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,141 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,141 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,141 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 3 items
+25 Mar 2025 11:49:31,141 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,142 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,142 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,142 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,142 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,143 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,144 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,144 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,144 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,144 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,144 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,144 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,144 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,145 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,146 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,147 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,147 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,147 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,148 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 3 items
+25 Mar 2025 11:49:31,148 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,150 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,150 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,151 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,151 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,151 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,151 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,151 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,151 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,152 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,153 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,154 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,154 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,154 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,154 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,154 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,154 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,154 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,155 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 3 items
+25 Mar 2025 11:49:31,156 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,160 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,160 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,160 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,161 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,161 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,161 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,161 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,161 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,161 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,162 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,162 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,175 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,176 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:31,176 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,176 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:31,176 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,176 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,178 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,178 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,178 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,179 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,179 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,180 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,180 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,181 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,181 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,182 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,182 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,182 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,182 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:31,182 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,182 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:31,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:31,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:31,184 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:31,184 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:31,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:31,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:31,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 3 items
+25 Mar 2025 11:49:31,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,071 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,071 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "proba" = ?
+25 Mar 2025 11:49:45,073 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,073 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:45,073 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,073 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:45,073 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,073 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:45,073 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,074 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,080 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,080 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:45,080 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,080 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,081 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:45,082 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,082 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:45,082 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,082 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,082 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,082 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,083 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,084 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,088 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,088 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:45,088 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,089 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:45,089 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,089 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:45,089 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,089 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:45,089 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,090 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,090 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:45,090 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:45,090 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:45,090 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:45,090 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,091 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:45,091 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:45,091 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,135 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" 
+25 Mar 2025 11:49:46,136 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,136 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 4 items
+25 Mar 2025 11:49:46,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,136 TRACE ro.mpp2024.repo.database.InscriereDbRepo 44 add - Inserting ro.mpp2024.domain.Inscriere@445e3bc4 
+25 Mar 2025 11:49:46,136 TRACE ro.mpp2024.repo.DatabaseRepoUtils 52 executeNonQuery - Enter executing query
+25 Mar 2025 11:49:46,138 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,138 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,161 TRACE ro.mpp2024.repo.DatabaseRepoUtils 59 executeNonQuery - Eexcuted query on 1 instances
+25 Mar 2025 11:49:46,161 TRACE ro.mpp2024.repo.DatabaseRepoUtils 65 executeNonQuery - Exit
+25 Mar 2025 11:49:46,161 INFO  ro.mpp2024.repo.database.InscriereDbRepo 49 add - Inserted successfully
+25 Mar 2025 11:49:46,162 TRACE ro.mpp2024.repo.database.InscriereDbRepo 50 add - Exit
+25 Mar 2025 11:49:46,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,162 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" 
+25 Mar 2025 11:49:46,162 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,162 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 5 items
+25 Mar 2025 11:49:46,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,163 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Inscriere"
+25 Mar 2025 11:49:46,163 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,163 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,164 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,164 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,164 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,164 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,164 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,164 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,164 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,165 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,167 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,167 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,167 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,167 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,167 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,167 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,167 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,168 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,168 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,168 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,168 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,168 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,168 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,168 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,169 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,169 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,169 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,169 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,169 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,169 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,169 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,170 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,170 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,170 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,170 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,170 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,170 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,170 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,171 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,173 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,173 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,173 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,173 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,174 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,174 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,174 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,174 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,174 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,175 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,175 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,175 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,175 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,175 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,176 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,176 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,176 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,176 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,176 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,176 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,177 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,177 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,177 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,177 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,177 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,177 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,178 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,178 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,178 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,178 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,178 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,178 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,179 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,179 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,179 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,180 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 9 items
+25 Mar 2025 11:49:46,181 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,183 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,183 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "proba" = ?
+25 Mar 2025 11:49:46,183 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,183 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,183 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,183 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,183 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,184 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,185 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,186 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,186 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,186 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 2 items
+25 Mar 2025 11:49:46,186 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,192 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,193 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:46,193 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,193 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,193 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,193 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,193 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,193 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,194 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,195 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,196 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,197 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,197 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,197 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:46,197 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,197 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,198 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,199 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,201 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,202 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,202 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,202 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,202 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,202 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,202 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,202 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,203 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,204 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,204 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,204 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 4 items
+25 Mar 2025 11:49:46,204 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,204 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,205 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:46,205 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,205 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,205 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,205 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,205 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,205 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,206 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,206 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,206 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,206 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,206 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,206 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,208 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,209 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,209 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,209 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,209 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,209 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,209 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,210 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,211 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,212 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,212 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,212 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,212 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,212 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 4 items
+25 Mar 2025 11:49:46,212 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,216 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,216 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:46,216 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,216 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,217 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,217 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,217 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,217 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,217 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,217 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,217 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,218 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,218 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,218 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,218 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,218 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,218 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,218 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,221 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,222 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: SELECT * FROM "Inscriere" WHERE "participant" = ?
+25 Mar 2025 11:49:46,222 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,222 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@688442eb)
+25 Mar 2025 11:49:46,222 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,223 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,224 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,226 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Participant" where "id" = ?
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e871ad)
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.DatabaseRepoUtils 28 select - Enter
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.DatabaseRepoUtils 29 select - Query: select * from "Proba" where id = ?
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.utils.JdbcUtils 45 getConnection - Enter
+25 Mar 2025 11:49:46,227 TRACE ro.mpp2024.repo.utils.JdbcUtils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25c14a1f)
+25 Mar 2025 11:49:46,228 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 1 items
+25 Mar 2025 11:49:46,228 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
+25 Mar 2025 11:49:46,228 TRACE ro.mpp2024.repo.DatabaseRepoUtils 46 select - Select query returned 4 items
+25 Mar 2025 11:49:46,228 TRACE ro.mpp2024.repo.DatabaseRepoUtils 47 select - Exit
